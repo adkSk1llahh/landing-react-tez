@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 40px;
+
+  @include respond-to(320) {
+      margin-bottom: 26px;
+  }
+
+  &__nav {
+    margin-left: auto;
+    margin-right: 50px;
+
+    @include respond-to(320) {
+      display: none;
+    }
+  }
+
+  &__button {
+    display: none;
+
+    @include respond-to(320) {
+      display: block;
+      background-color: transparent;
+    }
+  }
+
+  &__button-image {
+    display: block;
+    path {
+      stroke: #fff;
+    }
+  }
+}

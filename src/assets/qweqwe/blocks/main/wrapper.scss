@@ -1,0 +1,19 @@
+.wrapper {
+    border: none;
+  
+    &__send-money,
+    &__get-money,
+    &__features,
+    &__faq,
+    &__transfer,
+    &__about,
+    &__banner-info {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    } 
+
+    &__banner-info{
+      @include respond-to(320) {
+        border: none;
+      }
+    }
+  }

@@ -1,0 +1,204 @@
+.form {
+    background-color: #fff;
+    border-radius: 10px;
+    max-width: 704px;
+    width: 100%;
+    position: relative;
+
+    @include respond-to(320) {
+        max-width: 288px;
+        border-radius: 5px;
+    }
+
+    &--result {
+        padding-top: 76px;
+        padding-bottom: 106px;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+
+        @include respond-to(320) {
+            padding-top: 56px;
+            padding-bottom: 54px;
+        }
+    }
+
+    &--question {
+        padding: 32px 136px;
+
+        @include respond-to(320) {
+            padding: 24px 16px;
+        }
+    }
+
+    &__title {
+        padding-bottom: 14px;
+
+        @include respond-to(320) {
+            padding-bottom: 4px;
+        }
+    }
+
+    &__result-image {
+        width: 64px;
+        height: 64px;
+        margin-bottom: 18px;
+    }
+
+    &__result-title {
+        margin-bottom: 32px;
+
+        &--error {
+            background: #eb5757;
+            -webkit-background-clip: text;
+        }
+
+        @include respond-to(320) {
+            margin-bottom: 16px;
+        }
+    }
+
+    &__result-text {
+        font-size: 20px;
+        line-height: 1.25;
+        color: rgba(0, 0, 0, 0.8);
+        text-align: center;
+        max-width: 320px;
+        margin: 0 auto;
+
+        &--link {
+            color: #4C9EE7;
+            text-decoration: underline;
+
+            @include respond-to(320) {
+                text-decoration: none;
+            }
+        }
+
+
+        @include respond-to(320) {
+            font-size: 14px;
+            max-width: 196px;
+        }
+    }
+
+    &__input {
+        display: block;
+        padding: 17px 16px;
+        width: 100%;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        font-family: "SF UI", "Arial", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.25;
+        color: #666;
+        outline: 0;
+        margin-top: 22px;
+
+        &--textarea {
+            resize: none;
+            min-height: 116px;
+        }
+
+        &:hover,
+        &:focus {
+            border-color: #5ee2cb;
+        }
+
+        &.error {
+            border-color: #EB5757;
+        }
+
+        @include respond-to(320) {
+            padding: 11px 16px;
+            font-size: 12px;
+            margin-top: 12px;
+        }
+    }
+
+    &__checkbox-input {
+        opacity: 0;
+        visibility: hidden;
+        z-index: -1;
+        position: absolute;
+    }
+
+    &__checkbox-input+&__checkbox:before {
+        content: "";
+        width: 24px;
+        height: 24px;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-size: 50% 50%;
+        margin-right: 10px;
+
+        @include respond-to(320) {
+            width: 16px;
+            height: 16px;
+        }
+    }
+
+    &__checkbox {
+        width: 100%;
+        display: inline-flex;
+        align-items: center;
+        user-select: none;
+        color: rgba(0, 0, 0, 0.4);
+        margin: 22px 0;
+        font-size: 16px;
+        line-height: 1.25;
+
+        &:hover,
+        &:focus {
+            &:before {
+                border-color: #5ee2cb;
+            }
+        }
+
+        @include respond-to(320) {
+            font-size: 12px;
+            margin: 16px 0;
+        }
+    }
+
+    &__checkbox-input:checked+&__checkbox::before {
+        border-color: #3ecbc0;
+        background-color: #3ecbc0;
+        background-image: url(../../../images/icons/checkbox.svg);
+    }
+
+    &__button {
+        padding: 17px;
+        width: 100%;
+        background: #3ecbc0;
+        box-shadow: 0px 4px 24px #5ee2cb;
+        border-radius: 8px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 1.25;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #60e1d7;
+        }
+
+        @include respond-to(320) {
+            font-size: 16px;
+        }
+    }
+}
+
+label.error {
+    display: inline-block;
+    margin-top: 11px;
+    font-size: 14px;
+    color: #EB5757;
+
+    @include respond-to(320) {
+        font-size: 12px;
+        margin-top: 6px;
+    }
+}

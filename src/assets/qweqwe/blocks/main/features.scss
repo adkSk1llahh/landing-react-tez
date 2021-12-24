@@ -1,0 +1,91 @@
+.features {
+
+    padding-top: 84px;
+    padding-bottom: 84px;
+
+    @include respond-to(320) {
+        padding-top: 16px;
+        padding-bottom: 24px;
+    }
+
+
+    &__list {
+        padding: 80px 46px;
+        background: #1a2133;
+
+        border-radius: 16px;
+
+        margin-top: 40px;
+
+        @include respond-to(320) {
+            margin-top: 24px;
+            padding: 20px 12px;
+
+            flex-direction: column;
+        }
+    }
+
+    &__list-item {
+        max-width: 220px;
+        width: 100%;
+
+        @include respond-to(320) {
+            max-width: inherit;
+            display: flex;
+            margin-bottom: 16px;
+
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    &__text {
+        margin-top: 32px;
+
+        @include respond-to(320) {
+            margin-top: 0;
+            max-width: 184px;
+        }
+    }
+
+    &__title {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 1.25;
+        color: #38cbb0;
+
+        @include respond-to(320) {
+            font-size: 16px;
+        }
+    }
+
+    &__desc {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.25;
+        margin-top: 32px;
+        color: rgba(255, 255, 255, 0.8);
+
+        @include respond-to(320) {
+            font-size: 14px;
+            margin-top: 16px;
+        }
+    }
+
+    &__image {
+        margin-right: auto;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-top: 0;
+
+        display: block;
+        height: 90px;
+        width: auto;
+
+        @include respond-to(320) {
+            height: 64px;
+            margin-left: 0;
+        }
+    }
+}

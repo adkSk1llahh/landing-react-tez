@@ -1,0 +1,27 @@
+.banner-info {
+  margin: 86px auto;
+
+  background-image: url(../../../images/desktop/app-info@1x.png);
+  background-position: right top;
+  background-size: 1220px 100%;
+
+  @include respond-to(320) {
+    margin: 16px auto;
+
+    min-height: 562px;
+
+    background-image: url(../../../images/mobile/app-info@1x.png);
+    background-position: center bottom;
+    background-size: 288px auto;
+  }
+
+  &__text {
+    max-width: 400px;
+    padding-top: 40px;
+
+    @include respond-to(320) {
+      padding-top: 0;
+    }
+  }
+
+}

@@ -1,0 +1,39 @@
+.banner {
+  background-color: #1a2133;
+  background-image: url(../../../images/desktop/tezapp@1x.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 48px;
+  border-radius: 8px;
+
+  
+  @include respond-to(320) {
+    padding: 24px 16px;
+    min-height: 452px;
+    background-image: url(../../../images/mobile/tezapp@1x.png);
+    max-width: 288px;
+  }
+
+  &__title {
+    max-width: 470px;
+    margin-bottom: 48px;
+
+    @include respond-to(320) {
+      margin-bottom: 16px;
+      font-size: 20px;
+    }
+  }
+
+  &__text {
+    max-width: 370px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.25;
+    font-weight: 400;
+
+    @include respond-to(320) {
+      font-size: 14px;
+    }
+  }
+}

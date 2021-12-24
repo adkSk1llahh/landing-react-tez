@@ -1,0 +1,81 @@
+body {
+  background-color: #0b1323;
+  font-family: "SF UI", "Arial", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+table {
+  border-spacing: 0;
+}
+
+input,
+button,
+select,
+textarea {
+  border: 0;
+  outline: none;
+}
+
+.container {
+  max-width: 1220px;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 700;
+  font-family: "Open Sans";
+
+  font-display: swap;
+  src: url("../fonts/opensans700.woff2") format("woff2"),
+    url("../fonts/opensans700.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SF UI";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/sfui700.woff2") format("woff2"),
+    url("../fonts/sfui700.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SF UI";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../fonts/sfui600.woff2") format("woff2"),
+    url("../fonts/sfui600.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SF UI";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/sfui400.woff2") format("woff2"),
+    url("../fonts/sfui400.woff") format("woff");
+}

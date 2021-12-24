@@ -1,0 +1,41 @@
+.transfer {
+    padding-top: 106px;
+    padding-bottom: 106px;
+
+    @include respond-to(320) {
+        flex-direction: column;
+        padding-top: 16px;
+        padding-bottom: 30px;
+    }
+
+    &__text {
+        max-width: 460px;
+    }
+
+
+    &__list {
+        margin-top: 56px;
+        max-width: 390px;
+        font-size: 20px;
+        line-height: 1.25;
+
+        @include respond-to(320) {
+            margin-top: 38px;
+            font-size: 14px;
+        }
+    }
+
+    &__image {
+        width: 540px;
+    }
+
+    &__list-item {
+        margin-bottom: 32px;
+    }
+
+    &__check {
+        @include respond-to(320) {
+          margin-right: 24px;
+        }
+    }
+}

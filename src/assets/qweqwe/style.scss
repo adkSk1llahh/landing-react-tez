@@ -1,0 +1,47 @@
+// Global
+
+@import "blocks/helpers/mixins.scss";
+@import "blocks/helpers/reset.scss";
+@import "blocks/global/font.scss";
+
+@import "blocks/global/common.scss";
+
+@import "blocks/global/logo.scss";
+
+@import "blocks/global/modal.scss";
+
+@import "blocks/global/contact-button.scss";
+
+@import "blocks/main/menu-mobile.scss";
+
+//header
+
+@import "blocks/header/header.scss";
+@import "blocks/header/menu.scss";
+@import "blocks/header/language.scss";
+
+//main
+
+@import "blocks/main/wrapper.scss";
+@import "blocks/main/banner.scss";
+@import "blocks/main/app.scss";
+@import "blocks/main/block.scss";
+@import "blocks/main/send-money.scss";
+@import "blocks/main/get-money.scss";
+@import "blocks/main/features.scss";
+@import "blocks/main/faq.scss";
+@import "blocks/main/transfer.scss";
+@import "blocks/main/about.scss";
+@import "blocks/main/banner-info.scss";
+
+@import "blocks/main/form.scss";
+
+//footer
+
+@import "blocks/footer/footer.scss";
+
+
+
+
+
+
