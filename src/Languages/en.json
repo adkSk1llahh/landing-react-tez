@@ -1,25 +1,145 @@
 {
-    "text": "EN",
-    "links": [
-        {
-            "text": "About",
-            "href": "#"
-        },{
-            "text": "FAQ",
-            "href": "#"
-        }
-    ],
-    "banner":{
-        "title":"qweqwe",
-        "subtitle": "Денежные переводы на карты банков Узбекистана. Отправление в тенге, поступление в сумах. С карты на карту напрямую без посещения банка.",
-        "link-title":"Скачать приложение TEZ",
-        "link-text":"Cкачать в",
-        "link-item":[{
-            "item": "android",
-            "link":"#"
-        },{
-            "item": "appstore",
-            "link":"#"
-        }]
+  "text": "EN",
+  "links": [
+    {
+      "text": "About",
+      "href": "#"
+    },
+    {
+      "text": "FAQ",
+      "href": "#"
     }
+  ],
+  "banner": {
+    "title": "TEZ — Send Money from Kazakhstan to Uzbekistan",
+    "subtitle": "Money transfers to cards of banks of Uzbekistan. Send in tenge, receive in soms. Direct card to card transfers without going to the bank. Download the app to make or receive a transfer. ",
+    "link_title": "Download TEZ app",
+    "link_item": [
+      {
+        "item": "android",
+        "img": "https://tez.wooppay.com/themes/tez/build/images/icons/googleplay.svg",
+        "link": "#",
+        "link_text": "Available on"
+      },
+      {
+        "item": "appstore",
+        "img": "https://tez.wooppay.com/themes/tez/build/images/icons/appstore.svg",
+        "link": "#",
+        "link_text": "Available on"
+      }
+    ]
+  },
+  "send_money": {
+    "title": "Send Money",
+    "array": [
+      {
+        "id": 1,
+        "text": "Register with the TEZ app"
+      },
+      {
+        "id": 2,
+        "text": "Link a bank card and send money to the recipient in Uzbekistan using his phone number."
+      },
+      {
+        "id": 3,
+        "text": "The transfer will be received in one minute."
+      }
+    ]
+  },
+  "get_money": {
+    "title": "Receive Money",
+    "subtitle": "For the first transfer",
+    "array": [
+      "Receive an SMS about the transfer, register with TEZ and add a card to receive money.",
+      "Then just confirm the receipt of transfers to your card in the app."
+    ]
+  },
+  "features": {
+    "title": "Advantages of TEZ",
+    "array": [
+      {
+        "img": "https://tez.wooppay.com/themes/tez/build/images/mobile/feature1.svg",
+        "title": "Direct Card to Card Transfers",
+        "text": "Sending in tenge, receiving in soms. No need to go to the bank or exchange office"
+      },
+      {
+        "img": "https://tez.wooppay.com/themes/tez/build/images/mobile/feature2.svg",
+        "title": "Favorable Exchange Rate",
+        "text": "The partner banks provide the best tenge to soms conversion rate"
+      },
+      {
+        "img": "https://tez.wooppay.com/themes/tez/build/images/mobile/feature3.svg",
+        "title": " Service Available 24/7",
+        "text": "Send and receive transfers at your convenience by simply opening the app"
+      },
+      {
+        "img": "https://tez.wooppay.com/themes/tez/build/images/mobile/feature4.svg",
+        "title": "Instant Receipt of Money",
+        "text": "Transfer is received within a minute after sending"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Questions and Answers",
+    "array": [
+      {
+        "id": 1,
+        "question": "Do I need to go to the bank to receive a transfer?",
+        "answer": "  Crediting is made directly to the recipient's card. You don't need to go to the bank."
+      },
+      {
+        "id": 2,
+        "question": "Can I make transfers without downloading the app?",
+        "answer": "  To send or receive a transfer, you need to download the TEZ app and enter your data."
+      },
+      {
+        "id": 3,
+        "question": "Do I need to go to the bank to receive a transfer?",
+        "answer": "  Crediting is made directly to the recipient's card. You don't need to go to the bank."
+      },
+      {
+        "id": 4,
+        "question": "Can I make transfers without downloading the app?",
+        "answer": "  To send or receive a transfer, you need to download the TEZ app and enter your data."
+      }
+    ]
+  },
+  "transfer":{
+    "title":"Receive Transfers to Bank Cards",
+    "array":[
+      "Receive transfers to cards of 17 largest banks in Uzbekistan",
+      "All data is protected by the Payment Card Industry Data Security Standard"
+    ]
+  },
+  "about":{
+    "title": "About the Service",
+    "text":"TEZ transfer service is a development of WOOPPAY company, which created the first electronic wallet in Kazakhstan and also provides services to partner companies in the implementation of secure online payments and other payment solutions. ",
+    "bank_title":"Our partner banks:",
+    "bank_icon":[
+      "https://tez.wooppay.com/themes/tez/build/images/icons/bank-halyk.svg",
+      "https://tez.wooppay.com/themes/tez/build/images/icons/bank-tenge.svg"
+    ]
+  },
+  "banneer_info":{
+    "text":"TEZ is fast and reliable transfers without commission via the app. Money is automatically converted from tenge to soms at the best rate. Secure sign-in using a password, Face ID, or fingerprint. ",
+    "link_title": "Download TEZ app",
+    "link_item": [
+      {
+        "item": "android",
+        "img": "https://tez.wooppay.com/themes/tez/build/images/icons/googleplay.svg",
+        "link": "",
+        "link_text": "Download on"
+      },
+      {
+        "item": "appstore",
+        "img": "https://tez.wooppay.com/themes/tez/build/images/icons/appstore.svg",
+        "link": "",
+        "link_text": "Download on"
+      }
+    ]
+  },
+  "footer":{
+    "text":"© 2021. All rights reserved",
+    "link":"Privacy Policy"
+  }
 }
